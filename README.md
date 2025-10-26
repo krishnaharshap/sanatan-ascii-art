@@ -14,21 +14,41 @@ This project hosts a curated collection of original ASCII-art images inspired by
 
 ### Folder Structure  
 sanatana-ascii-art/
-│ README.md
-│ slideshow.html
-│
-├─ ascii-art/
-│ ├─ Deities/
-│ ├─ Symbols/
-│ └─ Graphics/
-│
-├─ css/
-│ styles.css
-├─ js/
-│ slideshow.js
-└─ tests/
-├─ ui_tests/
-└─ ascii_validation/
+|   .gitignore
+|   git-commands.txt
+|   README.md
+|   slideshow.html
+|
++---ascii-art
+|   +---Deities
+|   |       ganesha.txt
+|   |       nataraja.txt
+|   |       shiva.txt
+|   |
+|   +---Graphics
+|   |       om-namah-shivaya.txt
+|   |
+|   \---Symbols
+|           om.txt
+|           swastika.txt
+|
++---css
+|       styles.css
+|
++---js
+|       slideshow.js
+|
++---scripts
+|       repo-structure-validation.ps1
+|       setup-structure.ps1
+|
+\---tests
+    +---ascii_validation
+    |       validate_file_encoding.js
+    |
+    \---ui_tests
+            Navigation Works.md
+            TestMatrix_UI_Slideshow.xlsx
 
 
 ### Developer Setup & Validation Scripts
