@@ -9,14 +9,15 @@ document.addEventListener('DOMContentLoaded', () => {
     let slides = [];      // array of ASCII art items (text)
     let currentIndex = 0;
 
-    // Load ASCII-art files (you may fetch via AJAX or embed as list)
     async function loadSlides() {
-        // Example: you may hard-code filePaths or dynamically fetch
         const filePaths = [
             'ascii-art/Deities/ganesha.txt',
             'ascii-art/Deities/shiva.txt',
+            'ascii-art/Deities/nataraja.txt',
+            'ascii-art/Deities/datta-paduka.txt',
+            'ascii-art/Graphics/om-namah-shivaya.txt',
             'ascii-art/Symbols/om.txt',
-            'ascii-art/Graphics/om-namah-shivaya.txt'
+            'ascii-art/Symbols/swastika.txt',
             // add more here …
         ];
 
